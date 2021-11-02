@@ -93,3 +93,26 @@ td h5 {
   font-weight: 400;
   letter-spacing: 2px;
 }
+
+@media only screen and (max-width: 376px) {
+  .card {
+    width: 325px;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    height: 400px;
+    font-size: 0.8rem;
+  }
+
+  .card-head {
+    padding-bottom: 135px;
+  }
+
+  .card-body h2 {
+    margin-top: 15px;
+  }
+
+  .card-footer table {
+    width: 75px;
+    /* font-size: 0.8rem; */
+  }
+}
