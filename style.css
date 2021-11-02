@@ -95,6 +95,18 @@ td h5 {
 }
 
 @media only screen and (max-width: 376px) {
+  .top-bg-pattern {
+    top: -250px;
+    left: -300px;
+    width: 500px;
+  }
+
+  .bottom-bg-pattern {
+    bottom: 0;
+    right: -300px;
+    width: 500px;
+  }
+
   .card {
     width: 325px;
     margin-top: 125px;
